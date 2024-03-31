@@ -131,6 +131,5 @@ footer p {
 }
 
 #nav_list ul li a.current {
-    background-color: #800000; /* Changed background color */
-    color: white; /* Adjusted text color */
+    color: #800000;
 }

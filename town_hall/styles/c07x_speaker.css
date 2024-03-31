@@ -105,3 +105,32 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+#nav_list ul {
+    list-style-type: none;
+    margin-left: 1.25em;
+    margin-bottom: 1.5em;
+}
+
+#nav_list ul li {
+    width: auto; /* Adjusted to auto width */
+    margin-bottom: .5em;
+    border: 1px solid black; /* Changed border color to black */
+    border-radius: 5px; /* Added border radius */
+    box-shadow: 2px 2px 4px #800000; /* Added box shadow */
+}
+
+#nav_list ul li a {
+    display: block;
+    padding: .5em 1em; /* Adjusted padding */
+    text-decoration: none;
+    font-weight: bold;
+    color: black; /* Changed text color to black */
+    background-image: url("../images/right.jpg"); /* Added background image */
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+#nav_list ul li a.current {
+    background-color: #800000; /* Changed background color */
+    color: white; /* Adjusted text color */
+}
